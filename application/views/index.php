@@ -80,7 +80,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<h2 class="section-heading">We've got what you need!</h2>
+					<h2 class="section-heading">Ame | Cuide | "a"Dote</h2>
 					<hr class="light">
 					<p>Start Bootstrap has everything you need to get your new website
 						up and running in no time! All of the templates and themes on
@@ -93,6 +93,7 @@
 		</div>
 	</section>
 
+	<form action="<?php echo base_url("home/cadastrar")?>" method="POST">
 	<section id="services" class="bg-primary">
 		<div class="container">
 			<div class="row">
@@ -104,125 +105,42 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 text-center">
-					<div class="service-box">
-						<i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-						<h3>Quero que Cuidem</h3>
-					</div>
-				</div>
-				<div class="col-lg-4 text-center">
-					<div class="service-box">
-						<i class="fa fa-4x fa-home text-primary sr-icons"></i>
-						<h3>Quero Cuidar</h3>
-					</div>
-				</div>
-				<div class="col-lg-4 text-center">
-					<div class="service-box">
-						<i class="fa fa-4x fa-building text-primary sr-icons"></i>
-						<h3>Sou Empresa</h3>
-					</div>
-				</div>
+				<ul class="options">
+	          <li>
+	            <article id="idA">
+					<i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+					<h3>Quero que Cuidem</h3>
+	              <input type="radio" value="0" name="choice" required />
+	            </article>
+          </li>
+          <li>
+            <article id="idAC">
+				<i class="fa fa-4x fa-home text-primary sr-icons"></i>
+				<h3>Quero Cuidar</h3>
+              <input type="radio" value="1" name="choice" required />
+            </article>
+
+          </li>
+          <li class="col-lg-3 col-sm-12 col-md-12">
+            <article id="idC">
+				<i class="fa fa-4x fa-building text-primary sr-icons"></i>
+				<h3>Sou Empresa</h3>
+            <input type="radio" value="2" name="choice" required />
+            </article>
+          </li>
+        </ul>
+		<ul class="options i">
+	          <li>
+	            <input type="text" name="name" placeholder="Nome" required=""></br></br>
+	            <input type="email" name="email" placeholder="E-mail" required=""></br></br>
+	            <input type="text" name="cep" placeholder="Cidade" required="">
+	          </li>
+        </ul>
 			</div>
 		</div>
 	</section>
-	<!-- 
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="<?php echo img_url("iguan.jpeg")?>" class="portfolio-box">
-                        <img src="<?php echo img_url("iguan.jpeg")?>" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    Répteis
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="<?php echo img_url("bird.jpeg")?>" class="portfolio-box">
-                        <img src="<?php echo img_url("bird.jpeg")?>" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    Pássaros
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="<?php echo img_url("turtle.jpeg")?>" class="portfolio-box">
-                        <img src="<?php echo img_url("turtle.jpeg")?>" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    Turtle
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="<?php echo img_url("habbit.jpeg")?>" class="portfolio-box">
-                        <img src="<?php echo img_url("habbit.jpeg")?>" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="<?php echo img_url("cat.jpeg")?>" class="portfolio-box">
-                        <img src="<?php echo img_url("cat.jpeg")?>" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="<?php echo img_url("pig.jpeg")?>" class="portfolio-box">
-                        <img src="<?php echo img_url("pig.jpeg")?>" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
-            </div>
-        </div>
-    </aside>
- -->
-
+	<input type="submit"/>
+	</form>
 	<section id="contact">
 		<div class="container">
 			<div class="row">
