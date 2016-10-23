@@ -58,6 +58,7 @@
 			<div class="collapse navbar-collapse"
 				id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
+					<li><a class="page-scroll" href="#home">Home</a></li>
 					<li><a class="page-scroll" href="#about">Sobre</a></li>
 					<li><a class="page-scroll" href="#services">Serviços</a></li>
 					<li><a class="page-scroll" href="#contact">Contato</a></li>
@@ -68,7 +69,7 @@
 		<!-- /.container-fluid -->
 	</nav>
 
-	<header>
+	<header id="home">
 		<div class="header-content">
 			<div class="header-content-inner">
 				<img alt="" src="<?php echo img_url("logo.png")?>"
@@ -91,7 +92,10 @@
 		</div>
 	</section>
 
+	<!--
 	<form action="<?php echo base_url("home/cadastrar")?>" method="POST">
+	  -->
+	<form action="http://eepurl.com/cljOLX" target="_blank">
 	<section id="services" class="bg-primary">
 		<div class="container">
 			<div class="row">
@@ -130,10 +134,12 @@
 		</div>
 		</div>
 		<div align="center">
+		<!-- 
             <input class="beautyful-input" type="text" name="name" placeholder="Nome" required=""></br>
             <input class="beautyful-input" type="email" name="email" placeholder="E-mail" required=""></br>
 	    	<input class="beautyful-input" type="text" name="cep" placeholder="Cidade" required=""></br>
-			<input type="submit"/>
+		 -->
+			<input type="submit" value="Quero me cadastrar"/>
 		</div>
 	</section>
 	</form>
@@ -178,6 +184,17 @@
 	<!-- Theme JavaScript -->
 	<script src="<?php echo js_url("creative.min.js")?>"></script>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-86198110-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	
 </body>
 
 </html>

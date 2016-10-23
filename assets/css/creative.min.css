@@ -597,6 +597,7 @@ ul.options.t>li img {
     border: solid 2px #DDDDDD;
     transition: all ease-in-out 180ms;
     margin: 10px;
+    color: #000;
 }
 
 input[type=submit] {
@@ -625,6 +626,10 @@ input[type=submit] {
   .beautyful-input{
 	width: 60%;
 }
+input[type=submit] {
+	width: 50%;
+
+	}
   
 }
 @media screen and (max-width: 850px) {
@@ -640,6 +645,11 @@ input[type=submit] {
 }
 @media screen and (max-width: 768px) {
 
+	input[type=submit] {
+	width: 90%;
+
+	}
+	
   ul.options {
     flex-wrap: wrap;
     padding: 0px;
@@ -657,13 +667,9 @@ input[type=submit] {
     padding: 20px 0;
   }
 
-  ul.options.t > li img {
-    max-height: 130px;
-  }
-
     ul.options > li article:hover,
     ul.options > li article.selected {
-      transform: scale(1.1);
+      transform: scale(1.0);
     }
 
     ul.options > li label {

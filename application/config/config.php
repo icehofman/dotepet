@@ -24,6 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
+// $config['Mailchimp_api_key'] = '6637d5f40196a4eca25293d9151ec8cc-us14';
+
 if(ENVIRONMENT == 'production'){
 	$config['base_url'] = 'http:\\\\'.$_SERVER['SERVER_NAME'];	
 }else{
