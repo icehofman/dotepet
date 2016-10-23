@@ -10,6 +10,7 @@ html, body {
 
 body {
 	font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+	background-image: url('../img/background.jpg');
 }
 
 hr {
@@ -146,6 +147,7 @@ aside {
 	.navbar-default {
 		background-color: transparent;
 		border-color: rgba(255, 255, 255, 0.3);
+		border-bottom-width: 0px;
 	}
 	.navbar-default .navbar-header .navbar-brand {
 		color: rgba(255, 255, 255, 0.7);
@@ -470,7 +472,7 @@ ul.options {
 }
 
 ul.options>li {
-	width: 50%;
+	width: 30%;
 	padding: 30px;
 }
 
@@ -501,7 +503,7 @@ ul.options>li article:hover, ul.options>li article.selected {
 
 ul.options>li article.selected {
 	transform: scale(1.2);
-	border: solid 2px #c75757;
+	border: solid 2px #7c0000;
 }
 
 ul.options>li article path {
@@ -513,14 +515,14 @@ ul.options>li article h3 {
 }
 
 ul.options>li article.selected path {
-	fill: #c75757;
+	fill: #7c0000;
 }
 
 ul.options>li article.selected h3 {
-	color: #c75757;
+	color: #7c0000;
 }
 ul.options>li article.selected i {
-	color: #c75757;
+	color: #7c0000;
 }
 
 ul.options>li label {
@@ -584,19 +586,33 @@ ul.options.t>li img {
 	opacity: 0.8;
 }
 
+.beautyful-input{
+	width: 30%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px 0 33px;
+    display: inline-block;
+    position: relative;
+    border-radius: 3px;
+    border: solid 2px #DDDDDD;
+    transition: all ease-in-out 180ms;
+    margin: 10px;
+}
+
 input[type=submit] {
-	width: 100%;
+	width: 30%;
 	height: 40px;
 	line-height: 40px;
 	padding: 0;
 	display: inline-block;
 	position: relative;
 	border-radius: 3px;
-	border: solid 2px #c75757;
+	border: solid 2px #7c0000;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #FFF;
-	background: #c75757;
+	background: #7c0000;
+    margin: 10px;
 }
 
 
@@ -604,6 +620,12 @@ input[type=submit] {
   ul.options > li {
     width: 33%;
   }
+  
+  
+  .beautyful-input{
+	width: 60%;
+}
+  
 }
 @media screen and (max-width: 850px) {
   ul.options {
@@ -612,6 +634,9 @@ input[type=submit] {
   ul.options > li label {
     margin: 0 0 10px 0;
   }
+    .beautyful-input{
+	width: 90%;
+}
 }
 @media screen and (max-width: 768px) {
 

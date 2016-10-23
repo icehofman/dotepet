@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
+<link rel="icon" href="<?php echo img_url("icon.png")?>">
 
 <title>dote.Pet</title>
 
@@ -80,14 +81,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<h2 class="section-heading">Ame | Cuide | "a"Dote</h2>
+					<h2 class="section-heading">Ame | Cuide | (a) Dote</h2>
 					<hr class="light">
-					<p>Start Bootstrap has everything you need to get your new website
-						up and running in no time! All of the templates and themes on
-						Start Bootstrap are open source, free to download, and easy to
-						use. No strings attached!</p>
-					<a href="#services"
-						class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+					<p>Somos a plataforma favorita do seu melhor amigo: vamos encontrar um lugar 
+					legal, com um cuidador responsável e cheio de amor para ele enquanto você faz 
+					sua viagem ou sai pra jantar. Assim, ele se diverte e você fica tranquilo.</p>
 				</div>
 			</div>
 		</div>
@@ -129,32 +127,34 @@
             </article>
           </li>
         </ul>
-		<ul class="options i">
-	          <li>
-	            <input type="text" name="name" placeholder="Nome" required=""></br></br>
-	            <input type="email" name="email" placeholder="E-mail" required=""></br></br>
-	            <input type="text" name="cep" placeholder="Cidade" required="">
-	          </li>
-        </ul>
-			</div>
+		</div>
+		</div>
+		<div align="center">
+            <input class="beautyful-input" type="text" name="name" placeholder="Nome" required=""></br>
+            <input class="beautyful-input" type="email" name="email" placeholder="E-mail" required=""></br>
+	    	<input class="beautyful-input" type="text" name="cep" placeholder="Cidade" required=""></br>
+			<input type="submit"/>
 		</div>
 	</section>
-	<input type="submit"/>
 	</form>
 	<section id="contact">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<h2 class="section-heading">Let's Get In Touch!</h2>
+					<h2 class="section-heading">Fique com a gente!</h2>
 					<hr class="primary">
-					<p>Ready to start your next project with us? That's great! Give us
-						a call or send us an email and we will get back to you as soon as
-						possible!</p>
+					<p>Além do app, você pode nos encontrar no Facebook e no Instagram!</p>
 				</div>
-				<div class="col-lg-12 text-center center">
+				<div class="col-lg-6 col-sm-12 col-md-6 text-center center">
 					<i class="fa fa-facebook fa-3x sr-contact"></i>
 					<p>
-						<a href="https://www.facebook.com/dotepet01">facebook.com/dotepet01</a>
+						<a href="https://www.facebook.com/dotepet01" target="_blank">facebook.com/dotepet01</a>
+					</p>
+				</div>
+				<div class="col-lg-6 col-sm-12 col-md-6 text-center center">
+					<i class="fa fa-instagram fa-3x sr-contact"></i>
+					<p>
+						<a href="https://www.instagram.com/dotepet/" target="_blank">instagram.com/dotepet</a>
 					</p>
 				</div>
 			</div>
