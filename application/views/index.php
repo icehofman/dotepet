@@ -86,7 +86,7 @@
 					<hr class="light">
 					<p>Somos a plataforma favorita do seu melhor amigo: vamos encontrar um lugar 
 					legal, com um cuidador responsável e cheio de amor para ele enquanto você faz 
-					sua viagem ou sai pra jantar. Assim, ele se diverte e você fica tranquilo.</p>
+					sua viagem ou sai para jantar. Assim, ele se diverte e você fica tranquilo.</p>
 				</div>
 			</div>
 		</div>
@@ -105,31 +105,33 @@
 				</div>
 			</div>
 		</div>
-		<div class="container">
-			<div class="row">
+		<div class="container"  align="center">
+			<div class="row options">
 				<ul class="options">
 	          <li>
-	            <article id="idA">
+	            <article id="idA" onclick="window.open('http://eepurl.com/cljOLX')">
 					<i class="fa fa-4x fa-heart text-primary sr-icons"></i>
 					<h3>Quero que Cuidem</h3>
-	              <input type="radio" value="0" name="choice" required />
+	              <input type="radio" value="0" name="choice"  />
 	            </article>
           </li>
           <li>
-            <article id="idAC">
+            <article id="idAC" onclick="window.open('http://eepurl.com/cljOLX')">
 				<i class="fa fa-4x fa-home text-primary sr-icons"></i>
 				<h3>Quero Cuidar</h3>
-              <input type="radio" value="1" name="choice" required />
+              <input type="radio" value="1" name="choice"  />
             </article>
 
           </li>
+          <!-- 
           <li class="col-lg-3 col-sm-12 col-md-12">
-            <article id="idC">
+            <article id="idC" onclick="window.open('http://eepurl.com/cljOLX')">
 				<i class="fa fa-4x fa-building text-primary sr-icons"></i>
 				<h3>Sou Empresa</h3>
-            <input type="radio" value="2" name="choice" required />
+            <input type="radio" value="2" name="choice"  />
             </article>
           </li>
+           -->
         </ul>
 		</div>
 		</div>
