@@ -163,10 +163,15 @@ ul.banner-social-buttons>li {
 ul.banner-social-buttons>li:last-child {
 	margin-bottom: 0;
 }
+.intro-header {
+background-size: inherit;
+}
 .content-section-b {
-
+	padding-top: 100px;
 background-size: 0%;
-
+}
+.banner {
+padding-top: 50px;
 }
 }
 
