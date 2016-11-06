@@ -26,11 +26,14 @@
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
         <div class="container topnav">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header navbar-left"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <div class="navbar-header"> 
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-controls=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
+                </button>
                 <a class="navbar-brand topnav page-scroll" href="#start"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li> <a class="page-scroll" href="#start">Início</a> </li>
                     <li> <a class="page-scroll" href="#about">Sobre</a> </li>
@@ -127,6 +130,13 @@
          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
         ga('create', 'UA-86198110-1', 'auto');
         ga('send', 'pageview');
+        
+        $('.navbar-collapse').click(function() {
+    var navbar_toggle = $('.navbar-toggle');
+    if (navbar_toggle.is(':visible')) {
+        navbar_toggle.trigger('click');
+    }
+});
 </script>
     </body>
 </html>
