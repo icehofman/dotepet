@@ -103,13 +103,13 @@ background-color: #f8f8f8;
 }
 .content-section-b {
 height: 100%;
-padding-top: 150px;
+padding-top: 130px;
 /*padding: 160px 0;*/
 border-top: 1px solid #e7e7e7;
 border-bottom: 1px solid #e7e7e7;
 background: url(../img/dog.png) no-repeat center center;
 background-size: 30%;
-background-position-x: 20%;
+background-position-x: 200px;
 background-position-y: 100px;
 }
 .section-heading {
