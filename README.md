@@ -2,6 +2,6 @@ dote.pet landing page beta
 ---
 
 * less framework
-* less bullshit
+* more bootstrap
 * more fast
 * more clean
